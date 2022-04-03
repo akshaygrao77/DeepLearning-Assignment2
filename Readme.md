@@ -24,7 +24,7 @@ optional arguments:
   -runbest, --run_best_model     
   ```
   ## If command line call doesn't run a function of intension, then comment the following code cell
-  Go to cell "Alternative for command line (uncomment and run for plots, filter visualization)" (link: https://colab.research.google.com/drive/1ButOn9CqJyO4jXxn5Bk2e9v-OxMmjSw9#scrollTo=KYZciXo2nl5k&line=1&uniqifier=1)
+  Go to cell "If command line doesn't work (comment if command line doesn't work)" (link: https://colab.research.google.com/drive/1ButOn9CqJyO4jXxn5Bk2e9v-OxMmjSw9#scrollTo=KYZciXo2nl5k&line=1&uniqifier=1)
   
   ## Explanation of few functions in part A
   **cnn_Model() function:**   
