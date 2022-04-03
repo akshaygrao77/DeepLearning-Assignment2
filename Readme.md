@@ -1,5 +1,6 @@
 
 # Part A instructions  
+**Enable GPU run Environment for faster runs**
 # Output Execution using command lines and CMD (part_a.py)
 **There are two files for Part A execution i) part_a.py in Part_A folder or  Part_A.ipynb. you can execute either of them for outputs**
 ## Entire assignment was done using google colab. However we provide options for CMD arguments as well by using part_a.py in Part_A folder
