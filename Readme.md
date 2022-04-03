@@ -6,7 +6,7 @@
   
 ### The following are instructions to execute code using command line  
 **download part_a.py and mount the path where file is downloaded**<br />
-**intall required pakages like keras,Tensorflow etc and  execute below three command lines **<br />
+## Install required pakages like keras,Tensorflow etc and  execute below three command lines **<br />
 **pip install wandb**<br />
 **wandb login**<br />
 **pip install wget**<br />
