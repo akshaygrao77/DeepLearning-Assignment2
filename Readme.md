@@ -39,8 +39,16 @@ optional arguments:
                         model)
   -runbest, --run_best_model     
   ```
-  ## If command line call doesn't run a function of intension, then comment the following code cell
-  Go to cell "If command line doesn't work (comment if command line doesn't work)" (link: https://colab.research.google.com/drive/1ButOn9CqJyO4jXxn5Bk2e9v-OxMmjSw9#scrollTo=KYZciXo2nl5k&line=1&uniqifier=1)
+  ## If command line call doesn't run a function of intension, then execute the follwing cell
+  ## Execute the follwing commands in Google colab after executing all previous cells in Part_A.ipynb  for outputs if cmd not working
+  Go to cell with header "Execute below functions for outputs (comment the below cell it if command line is used for outputs)"
+model,test_Generator = run_best_model()
+pred_classes = {0: 'Amphibia', 1: 'Animalia', 2: 'Arachnida', 3: 'Aves', 4: 'Fungi', 5: 'Insecta', 6: 'Mammalia', 7: 'Mollusca', 8: 'Plantae', 9: 'Reptilia'}
+images, labels = test_Generator.next()
+predictions = model(images)
+create_grid_from_best_model(model,test_Generator,pred_classes,images,labels,predictions)
+visualize_filter_of_best_model(model)
+generate_guided_propogation_plots()
   
   ## Explanation of few functions in part A
   **cnn_Model() function:**   
