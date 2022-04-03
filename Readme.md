@@ -43,14 +43,21 @@ optional arguments:
   ## Execute the follwing commands in Google colab after executing all previous cells in Part_A.ipynb  for outputs if cmd not working
   **Go to cell with header "Execute below functions for outputs (comment the below cell it if command line is used for outputs)"**
 **model,test_Generator = run_best_model()**<br />
-**pred_classes = {0: 'Amphibia', 1: 'Animalia', 2: 'Arachnida', 3: 'Aves', 4: 'Fungi', 5: 'Insecta', 6: 'Mammalia', 7: 'Mollusca', 8: 'Plantae', 9: 'Reptilia'}**<br />
+**pred_classes = {0: 'Amphibia', 1: 'Animalia', 2: 'Arachnida', 3: 'Aves', 4: 'Fungi', 5: 'Insecta', 6: 'Mammalia', 7: 'Mollusca', 8: 'Plantae', 9: 'Reptilia'}**<br/>
 **images, labels = test_Generator.next()**<br />
 **predictions = model(images)**<br />
 **create_grid_from_best_model(model,test_Generator,pred_classes,images,labels,predictions)**<br />
 **visualize_filter_of_best_model(model)**<br />
 **generate_guided_propogation_plots()**<br />
    ## Execute the follwing commands in Google colab for (test data) output and accuracies
+   **model,test_Generator = run_best_model()**<br />
+**pred_classes = {0: 'Amphibia', 1: 'Animalia', 2: 'Arachnida', 3: 'Aves', 4: 'Fungi', 5: 'Insecta', 6: 'Mammalia', 7: 'Mollusca', 8: 'Plantae', 9: 'Reptilia'}**<br/>
+**images, labels = test_Generator.next()**<br />
+**predictions = model(images)**<br />
    **create_grid_from_best_model(model,test_Generator,pred_classes,images,labels,predictions)**<br />
+   ## Execute the follwing commands in Google colab visualizing filters and guided back propogation
+**visualize_filter_of_best_model(model)**<br />
+**generate_guided_propogation_plots()**<br />
   ## Explanation of few functions in part A
   **cnn_Model() function:**   
   It accepts varies parameters are input and returns a model with architecture as specified in question 1   
