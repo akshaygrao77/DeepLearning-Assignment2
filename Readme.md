@@ -37,6 +37,11 @@ optional arguments:
   **run_model() function**    
   Run a customized model passed as params   
   
+  ## Alternative if CMD doesn't run due to wandb,!pip install etc..
+  Go to cell "Alternative for command line (uncomment and run for plots, filter visualization)" (link: https://colab.research.google.com/drive/1ButOn9CqJyO4jXxn5Bk2e9v-OxMmjSw9#scrollTo=KYZciXo2nl5k&line=1&uniqifier=1)
+  Uncomment and run code to get best model outputs
+  
+  
   
   # Part B instrucions     
   ## Explanation of few functions in part B     
