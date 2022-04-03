@@ -1,6 +1,8 @@
 
 # Part A instructions  
-### The following are instructions to execute code using command line
+## Entire assignment was done using google colab. However we provide options for CMD arguments as well    
+  
+### The following are instructions to execute code using command line   
 ```
 usage: ipykernel_launcher.py [-h] [-pgb] [-visfilters] [-cgbm] [-runbest]
                              {run_model} ...
@@ -21,6 +23,9 @@ optional arguments:
                         model)
   -runbest, --run_best_model     
   ```
+  ## If command line call doesn't run a function of intension, then comment the following code cell
+  Go to cell "Alternative for command line (uncomment and run for plots, filter visualization)" (link: https://colab.research.google.com/drive/1ButOn9CqJyO4jXxn5Bk2e9v-OxMmjSw9#scrollTo=KYZciXo2nl5k&line=1&uniqifier=1)
+  
   ## Explanation of few functions in part A
   **cnn_Model() function:**   
   It accepts varies parameters are input and returns a model with architecture as specified in question 1   
@@ -37,9 +42,6 @@ optional arguments:
   **run_model() function**    
   Run a customized model passed as params   
   
-  ## Alternative if CMD doesn't run due to wandb,!pip install etc..
-  Go to cell "Alternative for command line (uncomment and run for plots, filter visualization)" (link: https://colab.research.google.com/drive/1ButOn9CqJyO4jXxn5Bk2e9v-OxMmjSw9#scrollTo=KYZciXo2nl5k&line=1&uniqifier=1)
-  Uncomment and run code to get best model outputs
   
   
   
