@@ -9,6 +9,22 @@ usage: ipykernel_launcher.py [-h] [-pgb] [-visfilters] [-cgbm] [-runbest]
 
 positional arguments:
   {run_model}
+  
+  arguments: the following are sub-arguments which follow the above "run_model" positional argument
+  -h, --help            show this help message and exit
+  --dropout DROPOUT     Specify dropout param
+  --batch_norm BATCH_NORM
+                        Specify batch normalization param
+  --dense_layer_size DENSE_LAYER_SIZE
+                        Specify number of neurons in dense layer param
+  --conv_activations_conv CONV_ACTIVATIONS_CONV
+                        Specify activation in convolution layer param
+  --conv_activations_out CONV_ACTIVATIONS_OUT
+                        Specify activation in output layer param
+  --conv_activations_dense CONV_ACTIVATIONS_DENSE
+                        Specify activation in dense layer param (mandatory argument)
+  --filter_size_list FILTER_SIZE_LIST
+                        Specify number of filters in each layer (mandatory argument)
 
 optional arguments:
   -h, --help            show this help message and exit
