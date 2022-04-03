@@ -1,8 +1,17 @@
 
 # Part A instructions  
-## Entire assignment was done using google colab. However we provide options for CMD arguments as well    
+# Output Execution using command lines and CMD (part_a.py)
+**There are two files for Part A execution i) part_a.py in Part_A folder or  Part_A.ipynb. you can execute either of them for outputs**
+## Entire assignment was done using google colab. However we provide options for CMD arguments as well by using part_a.py in Part_A folder
   
-### The following are instructions to execute code using command line   
+### The following are instructions to execute code using command line  
+**download part_a.py and mount the path where file is downloaded**
+**intall required pakages like keras,Tensorflow etc and  execute below three command lines **
+**pip install wandb**
+**wandb login**
+**pip install wget**
+**python part_a.py -h**
+**below is the usage of diiferent cmd commands to get the respective outputs**
 ```
 usage: ipykernel_launcher.py [-h] [-pgb] [-visfilters] [-cgbm] [-runbest]
                              {run_model} ...
@@ -39,6 +48,8 @@ optional arguments:
                         model)
   -runbest, --run_best_model     
   ```
+  # Output Execution using google colab (Part_A.ipynb )
+  # Run all cells in Part_A.ipynb to get outputs(last before two cells output) and ignore last two cells (cmd args)
   ## If command line call doesn't run a function of intension, then execute the follwing cell
   ## Execute the follwing commands in Google colab after executing all previous cells in Part_A.ipynb  for outputs if cmd not working
   **Go to cell with header "Execute below functions for outputs (comment the below cell it if command line is used for outputs)"**
