@@ -5,13 +5,13 @@
 ## Entire assignment was done using google colab. However we provide options for CMD arguments as well by using part_a.py in Part_A folder
   
 ### The following are instructions to execute code using command line  
-**download part_a.py and mount the path where file is downloaded**
-**intall required pakages like keras,Tensorflow etc and  execute below three command lines **
-**pip install wandb**
-**wandb login**
-**pip install wget**
-**python part_a.py -h**
-**below is the usage of diiferent cmd commands to get the respective outputs**
+**download part_a.py and mount the path where file is downloaded**<br />
+**intall required pakages like keras,Tensorflow etc and  execute below three command lines **<br />
+**pip install wandb**<br />
+**wandb login**<br />
+**pip install wget**<br />
+**python part_a.py -h**<br />
+**below is the usage of diiferent cmd commands to get the respective outputs**<br />
 ```
 usage: ipykernel_launcher.py [-h] [-pgb] [-visfilters] [-cgbm] [-runbest]
                              {run_model} ...
