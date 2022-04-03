@@ -50,7 +50,7 @@ optional arguments:
   -runbest, --run_best_model     
   ```
   # Output Execution using google colab (Part_A.ipynb )
-  # Run all cells in Part_A.ipynb to get outputs(last before two cells output) and ignore last two cells (cmd args)
+  # Run all cells in Part_A.ipynb to get outputs(until last before two cells output) and ignore last two cells (cmd args)
   ## If command line call doesn't run a function of intension, then execute the follwing cell
   ## Execute the follwing commands in Google colab after executing all previous cells in Part_A.ipynb  for outputs if cmd not working
   **Go to cell with header "Execute below functions for outputs (comment the below cell it if command line is used for outputs)"**
